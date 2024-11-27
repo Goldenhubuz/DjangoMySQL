@@ -1,6 +1,8 @@
 scratch:
 	django-admin startproject config .
 
+noidea:
+	git rm -r --cached .idea/
 env:
 	python3 -m venv env && . env/bin/activate
 i:
